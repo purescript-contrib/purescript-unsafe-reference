@@ -7,11 +7,10 @@ Highly unsafe functions for comparing values using the runtime's strict (`===`) 
 
 ## Installation
 
-``
+```
 bower install purescript-unsafe-reference
-``
+```
 
 ## Documentation
 
 Module documentation is [published on Pursuit](http://pursuit.purescript.org/packages/purescript-unsafe-reference).
-`
