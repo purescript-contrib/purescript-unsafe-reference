@@ -13,11 +13,11 @@ data Bar = Bar String
 newtype Foo' = Foo' String
 newtype Bar' = Bar' String
 
-assert :: forall eff. Boolean -> String -> Eff (err :: EXCEPTION | eff) Unit
+assert :: forall eff. Boolean -> String -> Eff (exception :: EXCEPTION | eff) Unit
 assert true _ = pure unit
 assert _ desc = throwException (error desc)
 
-main :: Eff (err :: EXCEPTION) Unit
+main :: Eff (exception :: EXCEPTION) Unit
 main = do
   let
     foo1 = Foo  "foo"
