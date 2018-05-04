@@ -17,7 +17,7 @@
     "bower.json"
   ],
   "devDependencies": {
-    "purescript-console": "^3.0.0",
-    "purescript-exceptions": "^3.0.0"
+    "purescript-console": "#compiler/0.12",
+    "purescript-exceptions": "#compiler/0.12"
   }
 }
