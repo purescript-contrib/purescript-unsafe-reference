@@ -2,8 +2,8 @@ module Test.Main where
 
 import Prelude
 
-import Control.Monad.Eff (Eff)
-import Control.Monad.Eff.Exception (EXCEPTION, throwException, error)
+import Effect (Effect)
+import Effect.Exception (throwException, error)
 
 import Unsafe.Reference (unsafeRefEq, reallyUnsafeRefEq)
 
@@ -13,11 +13,11 @@ data Bar = Bar String
 newtype Foo' = Foo' String
 newtype Bar' = Bar' String
 
-assert :: forall eff. Boolean -> String -> Eff (exception :: EXCEPTION | eff) Unit
+assert :: Boolean -> String -> Effect Unit
 assert true _ = pure unit
 assert _ desc = throwException (error desc)
 
-main :: Eff (exception :: EXCEPTION) Unit
+main :: Effect Unit
 main = do
   let
     foo1 = Foo  "foo"
