@@ -19,5 +19,8 @@
   "devDependencies": {
     "purescript-console": "^4.0.0",
     "purescript-exceptions": "^4.0.0"
+  },
+  "dependencies": {
+    "purescript-prelude": "^4.1.0"
   }
 }
