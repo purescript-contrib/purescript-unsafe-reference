@@ -7,6 +7,7 @@ Notable changes to this project are documented in this file. The format is based
 Breaking changes (😱!!!):
 
 New features:
+  - Adds `UnsafeRefEq` and `UnsafeRefEqFallback` newtypes. The first newtype uses unsafe reference equality as an equality check, while the second will try `unsafeRefEq` and fall back to an underlying `Eq` instance. This can provide a significant performance improvement in some situations. Implemented in [#7](https://github.com/purescript-contrib/purescript-unsafe-reference/pull/7) by @LiamGoodacre.
 
 Bugfixes:
 
