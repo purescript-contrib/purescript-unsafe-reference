@@ -19,7 +19,7 @@ Other improvements:
 
 ## [v3.0.0](https://github.com/purescript-contrib/purescript-unsafe-reference/releases/tag/v3.0.0) - 2018-05-25
 
-Updates for 0.12
+- Updates for 0.12
 
 ## [v2.0.0](https://github.com/purescript-contrib/purescript-unsafe-reference/releases/tag/v2.0.0) - 2017-04-03
 
@@ -27,5 +27,4 @@ Updates for 0.12
 
 ## [v1.0.0](https://github.com/purescript-contrib/purescript-unsafe-reference/releases/tag/v1.0.0) - 2017-02-20
 
-
-
+- Initial release
