@@ -17,10 +17,10 @@
     "bower.json"
   ],
   "devDependencies": {
-    "purescript-console": "^4.0.0",
-    "purescript-exceptions": "^4.0.0"
+    "purescript-console": "master",
+    "purescript-exceptions": "master"
   },
   "dependencies": {
-    "purescript-prelude": "^4.1.0"
+    "purescript-prelude": "master"
   }
 }
