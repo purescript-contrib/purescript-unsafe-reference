@@ -5,12 +5,14 @@ Notable changes to this project are documented in this file. The format is based
 ## [Unreleased]
 
 Breaking changes (😱!!!):
+- Added support for PureScript 0.14 and dropped support for all previous versions (#13)
 
 New features:
 
 Bugfixes:
 
 Other improvements:
+- Changed default branch to `main` from `master`
 
 ## [v3.1.0](https://github.com/purescript-contrib/purescript-unsafe-reference/releases/tag/v3.1.0) - 2020-10-02
 
@@ -19,12 +21,12 @@ New features:
 
 ## [v3.0.1](https://github.com/purescript-contrib/purescript-unsafe-reference/releases/tag/v3.0.1) - 2018-06-23
 
-- Adds metadata including contributor guidelines
-- Pushes latest release to Pursuit
+- Added metadata including contributor guidelines
+- Pushed latest release to Pursuit
 
 ## [v3.0.0](https://github.com/purescript-contrib/purescript-unsafe-reference/releases/tag/v3.0.0) - 2018-05-25
 
-- Updates for 0.12
+- Updated for 0.12
 
 ## [v2.0.0](https://github.com/purescript-contrib/purescript-unsafe-reference/releases/tag/v2.0.0) - 2017-04-03
 
