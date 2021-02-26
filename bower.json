@@ -5,7 +5,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/purescript-contrib/purescript-unsafe-reference"
+    "url": "https://github.com/purescript-contrib/purescript-unsafe-reference.git"
   },
   "ignore": [
     "**/.*",
@@ -17,10 +17,11 @@
     "bower.json"
   ],
   "devDependencies": {
-    "purescript-console": "master",
-    "purescript-exceptions": "master"
+    "purescript-console": "^5.0.0",
+    "purescript-effect": "^3.0.0",
+    "purescript-exceptions": "^5.0.0"
   },
   "dependencies": {
-    "purescript-prelude": "master"
+    "purescript-prelude": "^5.0.0"
   }
 }
