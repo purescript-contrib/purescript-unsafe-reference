@@ -24,11 +24,11 @@ derive instance eqX :: Eq X
 main :: Effect Unit
 main = do
   let
-    foo1 = Foo  "foo"
-    foo2 = Foo  "foo"
+    foo1 = Foo "foo"
+    foo2 = Foo "foo"
     foo3 = Foo' "foo"
     foo4 = Foo' "foo"
-    bar1 = Bar  "foo"
+    bar1 = Bar "foo"
     bar2 = Bar' "foo"
 
   assert (unsafeRefEq foo1 foo1) "unsafeRefEq data"
