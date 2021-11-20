@@ -1,8 +1,8 @@
 module Unsafe.Reference
   ( unsafeRefEq
   , reallyUnsafeRefEq
-  , UnsafeRefEq (..)
-  , UnsafeRefEqFallback (..)
+  , UnsafeRefEq(..)
+  , UnsafeRefEqFallback(..)
   ) where
 
 import Prelude
@@ -27,6 +27,6 @@ newtype UnsafeRefEqFallback a = UnsafeRefEqFallback a
 instance eqUnsafeRefEqFallback ::
   Eq a =>
   Eq (UnsafeRefEqFallback a) where
-    eq (UnsafeRefEqFallback l) (UnsafeRefEqFallback r) =
-      unsafeRefEq l r || l == r
+  eq (UnsafeRefEqFallback l) (UnsafeRefEqFallback r) =
+    unsafeRefEq l r || l == r
 
