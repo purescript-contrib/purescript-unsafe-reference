@@ -4,7 +4,6 @@
 [![Release](https://img.shields.io/github/release/purescript-contrib/purescript-unsafe-reference.svg)](https://github.com/purescript-contrib/purescript-unsafe-reference/releases)
 [![Pursuit](https://pursuit.purescript.org/packages/purescript-unsafe-reference/badge)](https://pursuit.purescript.org/packages/purescript-unsafe-reference)
 [![Maintainer: garyb](https://img.shields.io/badge/maintainer-garyb-teal.svg)](https://github.com/garyb)
-[![Maintainer: thomashoneyman](https://img.shields.io/badge/maintainer-thomashoneyman-teal.svg)](https://github.com/thomashoneyman)
 
 Highly unsafe functions for comparing values using the runtime's strict (`===`) equality.
 
