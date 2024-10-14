@@ -1,0 +1,17 @@
+package:
+  name: unsafe-reference
+  description: Unsafe referential equality.
+  publish:
+    license: MIT
+    version: 6.0.0
+    location:
+      githubOwner: purescript-contrib
+      githubRepo: purescript-unsafe-reference
+  dependencies:
+    - prelude: ">=6.0.1 <7.0.0"
+  test:
+    main: Test.Main
+    dependencies:
+      - effect
+      - exceptions
+workspace: {}

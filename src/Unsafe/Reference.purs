@@ -29,4 +29,3 @@ instance eqUnsafeRefEqFallback ::
   Eq (UnsafeRefEqFallback a) where
   eq (UnsafeRefEqFallback l) (UnsafeRefEqFallback r) =
     unsafeRefEq l r || l == r
-
